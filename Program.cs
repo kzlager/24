@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Задача 24
+
+Console.WriteLine("Введите число: ");
+int number = int.Parse(Console.ReadLine());
+
+for (int n = 1; n <= number; n++)
+{
+    Console.Write($"{n * n * n} ");
+}
+
+//while ()
